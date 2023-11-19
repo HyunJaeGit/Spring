@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.main {
+	width:1000px;
+	margin: 0 auto;
+}
+table {
+	text-align: center;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+tr,td,th {
+	border-bottom: 1px solid;
+	padding: 10px;
+}
+tr:nth-child(1) {
+	border-bottom: double;
+}
+article:nth-child(1) {
+	text-align: center;
+}
+article:nth-child(2) {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+.page {
+	list-style-type: none;
+	display: flex;
+	gap: 10px;
+}

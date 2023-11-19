@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+	width: 400px;
+}
+tr, td {
+	border: 1px solid;
+	padding: 10px;
+}
+input {
+	width: 80%;
+}
+textarea {
+	width: 90%;
+	height: 300px;
+}
+input, textarea {
+	border: 0;
+}
+
+button {
+	margin-left: 70%;
+}
