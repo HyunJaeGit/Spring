@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+		
+	<!-- Namespaces에서 필요한 걸 추가해준다 - (context 추가후 자동완성으로 구문추가) -->
+	<context:component-scan base-package="com.itbank.service"/>
+	<context:component-scan base-package="com.itbank.model"/>
+	
+	<!-- combop 하고 자동완성 (연결해주는 구문) -->
+	<bean id="ds" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver"></property>
+		<property name="jdbcUrl" value="jdbc:oracle:thin:@192.168.1.100:1521:xe" />
+		<property name="user" value="c##itbank"></property>
+		<property name="password" value="it"></property>
+	</bean>
+
+	<!-- 의존성 주입으로 데이터를 참조시킨다 -->
+	<bean id="jt" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="ds"></property>
+	</bean>
+	
+	
+</beans>
