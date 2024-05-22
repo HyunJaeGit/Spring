@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	color: red;
+}
+.header-menu {
+	margin: 0 auto;
+	width: 800px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.header-menu > li {
+	margin: 5px 10px;
+}
+table {
+	width: 800px;
+	border-collapse: collapse;
+	margin: 10px auto;
+}
+
+tr, td {
+	padding: 10px;
+	border-bottom: 1px solid black;
+	
+}
