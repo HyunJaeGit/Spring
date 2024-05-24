@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+/* 	background-color: #fff8dc; */
+	padding-top: 10px;
+}
+section {
+	width: 900px;
+	background-color: #e0ffff;
+	border: 1px solid #efeeee;
+	box-shadow: 5px 5px 10px 2px black;
+	border-radius: 15px;
+	padding: 20px;
+	margin: 20px;
+}
+
+/* 헤더 */
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.menu {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+.menu > li {
+	margin: 0 10px;
+}
+
+/* 홈 */
+
+.board > table {
+	border-collapse: collapse;
+	width: 100%;
+}
+.board th, .board td {
+	border: 1px solid #aaaaaa;
+	padding: 5px 10px;
+}
+
+.menu_page {
+	width: 600px;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	gap: 15px;
+	padding: 0;
+	justify-content: center;
+}
+
+/* VIEW.jSP */
+.rep-write {
+	margin: 10px 0;
+	width: 420px;	
+	justify-content: space-between;
+}
+.rep-write textarea {
+	width: 400px;
+	padding: 5px;
+}
+.rep-write form {
+	display: flex;
+	flex-direction: row;
+}
+.rep-write button, textarea {
+	height: 50px;
+	box-sizing: border-box;
+	margin-right: 5px;
+}
+.rep-write button {
+	width: 50px;
+	margin-top: 25px;
+}
+.rep-write input {
+	margin-bottom: 2px;
+}
+
+.del {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+/* add.jsp */
+.add {
+	text-align: center;
+}
+.add p {
+	width: 800px;
+	margin: 10px auto;
+	height: 30px;
+}
+.add input {
+	height: 30px;
+	width: 750px;
+}
+
+
+.textarea-container {
+	width: 800px;
+	max-height: 400px;
+	overflow: scroll;
+	margin: 0 auto;
+}
+
+/* login.jsp */
+
+.login fieldset {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+.login p {
+	height: 40px;
+	margin-top: 10px;
+	
+}
+.login input {
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
