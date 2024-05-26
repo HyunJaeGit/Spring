@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 120%;
+}
+
+section {
+	background-color: #444444;
+	color: white;
+	width: 1000px;
+	box-shadow: 1px 1px 5px 5px gray;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+/* header.jsp */
+
+.header a {
+	color: white;
+}
+.header ul {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+}
+.header li {
+	list-style: none;
+	margin-right: 20px;
+}
+/* home.jsp */
+.lotto {
+	border: 1px solid white;
+	padding: 20px;
+	border-radius: 10px;
+}
+.lotto-num, .lotto-num tr {
+	background-color: lightgray;
+	padding: 5px;
+	color: black;
+}
+
+
+/* list.jsp */
+.book_list table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 900px;
+	background-color: white;
+	color: black;
+}
+.book_list tr {
+	border-bottom: 1px solid;
+}
+.book_list th, .book_list td {
+	padding: 10px;
+	text-align: center;
+}
+.buttons {
+	background-color: lightgray;
+	margin: 5px auto;
+	width: 900px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	gap: 20px;
+	box-sizing: border-box;
+}
+.buttons input, .buttons select, .buttons button {
+	height: 30px;
+	box-sizing: border-box;
+}
+.search {
+	width: 300px;
+}
+.book_list a {
+	color: black;
+}
+
+/* upload.jsp */
+.upload fieldset {
+	text-align: center;
+	padding: 20px;
+}
+.upload form {
+	background-color: white;
+	width: 400px;
+	border-radius: 15px;
+	padding: 20px;
+	margin: 0 auto;
+}
+.upload a {
+	padding: 2px;
+	box-sizing: border-box;
+}
+.upload input {
+	height: 20px;
+	border: 5px double;
+	border-radius: 10px;
+	padding: 5px;
+}
+.upload button {
+	height: 30px;
+	border-radius: 10px;
+}
+
+/* view.jsp */
+
+.view table {
+	margin: 20px auto;
+	text-align: left;
+	border-collapse: collapse;
+}
+.view th, .view td {
+	border-bottom: 1px solid;
+}
+.view th {
+	width: 100px;
+}
+.view img {
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
