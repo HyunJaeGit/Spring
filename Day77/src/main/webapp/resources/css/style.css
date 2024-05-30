@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.debug {
+	color: red;
+}
+body {
+	width: 800px;
+	margin: 0 auto;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+section {
+	min-height: 600px;
+	/* background-color: orange; */
+}
+footer {
+	text-align: center;
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+.menu > ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+.menu li {
+	margin: 0 10px;
+}
+.board {
+	width: 98%;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.board th, .board td {
+	border: 1px solid #aaaaaa;
+	padding: 5px 10px;
+}
+.half {
+	width: 50%;
+}
+.myPage_btn {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	list-style: none;
+	gap: 20px;
+}
+fieldset {
+	width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
