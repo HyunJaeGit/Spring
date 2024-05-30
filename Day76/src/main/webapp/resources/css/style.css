@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* HTML */
+body {
+	width: 1100px;
+	margin: 0 auto;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+section {
+	min-height: 600px;
+}
+footer {
+	text-align: center;
+}
+
+/* header */
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+.menu > ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+.menu li {
+	margin: 0 10px;
+}
+
+/* list */
+.list {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.list td {
+	border-bottom: 1px solid;
+	padding: 5px 10px;
+}
+.list tr:hover {
+	background-color: #ffccff;
+}
+.list th{
+	padding: 15px 10px;
+	font-size: 120%;
+	border-bottom: 3px double;
+}
+.debug {
+	color: red;
+}
+
+/* signUp */
+fieldset {
+	margin: 100px auto;
+	width: 500px;
+	text-align: center;
+}
