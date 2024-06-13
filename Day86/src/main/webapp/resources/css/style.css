@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: red;
+}
+
+table {
+	border-collapse: collapse;
+	
+}
+th, td {
+	border: 1px solid;
+	padding: 5px 10px;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+.menu li {
+	width: 100px;
+	color: black;
+	margin: 0 10px;
+	padding: 10px;
+	text-align: center;
+	border: 6px double #aaaaaa;
+}
+.menu li:hover {
+	color: navy;
+	background-color: #eeeeee;
+}
+.board {
+	width: 1000px;
+	margin: 10px auto;
+}
+.board td {
+	border: none;
+	border-bottom: 1px solid;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+.board tr:nth-child(2n) {
+	background-color: #e0e0ff;
+}
+.buttons {
+	width: 1000px;
+	margin: 10px auto;
+}
+h1, h4 {
+	text-align: center;
+}
+.page {
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+	list-style: none;
+	gap: 25px;
+	margin: 0 auto;
+	width: 1000px;
+	justify-content: center;
+}
+.page li {
+	padding: 5px 15px;
+}
+.view pre {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+	font-size: 150%;
+}
