@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.thumnail {
+	width: 18%;
+	height: 300px;
+	margin: 10px;
+	text-align: center;
+	overflow: hidden;
+}
+.thumnail img:hover {
+	height: 300px;
+}
+.thumnail img {
+	width: 100%;
+	height: 150px;
+}
+div > ul, div li {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin-right: 50px;
+}
